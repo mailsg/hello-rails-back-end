@@ -70,27 +70,13 @@ To run the project, execute the following command:
   rails s
 ```
 
-To add some greetings to your application add 
-these to greeting table using 
-```
-rails console
-```
+To add some greetings to your application run the following commands
 
 ```
-# Create the first greeting
-Greeting.create(content: "Hello, world!")
-
-# Create the second greeting
-Greeting.create(content: "Welcome to our app!")
-
-# Create the third greeting
-Greeting.create(content: "Hi there!")
-
-# Create the fourth greeting
-Greeting.create(content: "Greetings from Rails!")
-
-# Create the fifth greeting
-Greeting.create(content: "Good day!")
+rails db:drop
+rails db:create
+rails db:migrate
+rails db:seed
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
