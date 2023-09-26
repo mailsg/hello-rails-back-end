@@ -27,9 +27,9 @@ Front End React-redux app link
 
 https://github.com/mailsg/hello-react-front-end.git
 
-# Screenshots
-end-point
-![Alt text](image.png)
+# Screenshot
+End-point
+![Alt text](SS_1.png)
 ## 🛠 Built With <a name="built-with"></a>
 
   <ul>
